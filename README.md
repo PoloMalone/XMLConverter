@@ -1,7 +1,7 @@
 
 # XMLConverter
 
-This project allows users to format ".txt" files in given format,
+**This project allows users to format ".txt" files in given format,**
 
 > P|Carl Gustaf|Bernadotte\
 > T|0768-101801|08-101801\
@@ -13,7 +13,7 @@ This project allows users to format ".txt" files in given format,
 > P|Barack|Obama\
 > A|1600 Pennsylvania Avenue|Washington, D.C
 
-and output an XML file with the information from the ".txt" file...
+**and output an XML file with the information from the ".txt" file...**
  
 >
 > <people>
@@ -74,12 +74,12 @@ and output an XML file with the information from the ".txt" file...
 
 ### REQUIREMENTS
 
-* Java
-* Maven
+* **Java**
+* **Maven**
 
 ### Usage 
 
-> mvn clean install 
-> mvn exec:java -Dexec.args="PATH_TO_TXT output.xml"  
+> **mvn clean install**\ 
+> **mvn exec:java -Dexec.args="PATH_TO_TXT output.xml"**  
 
 
