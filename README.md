@@ -2,16 +2,16 @@
 # XMLConverter
 
 **This project allows users to format ".txt" files in given format,**
-
+>
 > P|Carl Gustaf|Bernadotte\
-> T|0768-101801|08-101801\
-> A|Drottningholms slott|Stockholm|10001\
-> F|Victoria|1977\
-> A|Haga Slott|Stockholm|10002\
-> F|Carl Philip|1979\
-> T|0768-101802|08-101802\
-> P|Barack|Obama\
-> A|1600 Pennsylvania Avenue|Washington, D.C
+ T|0768-101801|08-101801\
+ A|Drottningholms slott|Stockholm|10001\
+ F|Victoria|1977\
+ A|Haga Slott|Stockholm|10002\
+ F|Carl Philip|1979\
+ T|0768-101802|08-101802\
+ P|Barack|Obama\
+ A|1600 Pennsylvania Avenue|Washington, D.C
 
 **and output an XML file with the information from the ".txt" file...**
  
@@ -79,7 +79,8 @@
 
 ### Usage 
 
-> **mvn clean install**\ 
+> **mvn clean install**
+> 
 > **mvn exec:java -Dexec.args="PATH_TO_TXT output.xml"**  
 
 
